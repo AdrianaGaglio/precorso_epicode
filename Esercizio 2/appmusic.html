@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Music</title>
+    <style>
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .fields {
+            padding-top:10px;
+            padding-bottom:10px;
+            width:50%;
+        }
+
+        .fields label, .fields input {
+            display:inline-block;
+            width:150px;
+        }
+
+        #generi {
+            width:350px;
+        }
+
+        .checkbox {
+            display:inline-block;
+            width:100px;
+        }
+
+        .checkbox input, #terms input {
+            margin-left:0px;
+        }
+
+        #terms {
+            padding-top:20px;
+        }
+
+        #submit {
+            margin-top:30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>MUSIC STREAMING</h1>
+    <h3>Completa la registrazione e inizia subito ad ascoltare i tuoi brani preferiti</h3>
+    <form onsubmit="alert('Registrazione inviata!');">
+        <div class="fields">
+            <label for="name">Nome:</label>
+            <input type="text" name="nome"/>
+        </div>
+        <div class="fields">
+            <label for="cognome">Cognome:</label>
+            <input type="text" name="cognome"/>
+        </div>
+        <div class="fields">
+            <label for="email">Indirizzo email:</label>
+            <input type="email" name="email"/>
+        </div>
+        <div class="fields">
+            <label for="pass">Password:</label>
+            <input type="password"/>
+        </div>
+        <div class="fields">
+            <label for="nascita">Data di nascita:</label>
+            <input type="date" name="nascita"/>
+        </div>
+        <div class="fields">
+            <label for="telefono">Telefono:</label>
+            <input type="number"/>
+        </div>
+        <div>
+            <h3>Quali tra questi generi musicali preferisci?</h3>
+            <div id="generi">
+                <div class="checkbox">
+                    <input type="checkbox" name="pop"/>
+                    <label for="pop">Pop</label>        
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="rock"/>
+                    <label for="rock">Rock</label>        
+                </div>    
+                <div class="checkbox">
+                    <input type="checkbox" name="indie"/>
+                    <label for="indie">Indie</label>        
+                </div>    
+                <div class="checkbox">
+                    <input type="checkbox" name="country"/>
+                    <label for="country">Country</label>        
+                </div>    
+                <div class="checkbox">
+                    <input type="checkbox" name="hiphop"/>
+                    <label for="hiphop">Hip Hop</label>        
+                </div>    
+                <div class="checkbox">
+                    <input type="checkbox" name="classica"/>
+                    <label for="classica">Classica</label>        
+                </div>    
+            </div>
+            <div id="terms">
+                <input name="terms" type="radio"/>    
+                <label for="terms">Accetto i termini e le condizioni del servizio. <a href="#">Leggi l'informativa.</a></label>
+            </div>
+            <button id="submit" type="submit">Invia registrazione</button>
+        </div>
+    </form>
+</body>
+</html>
