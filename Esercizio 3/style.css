@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900');
+
+/* REGOLE COMUNI */
+
+body {
+    margin:0;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height:500px;
+}
+
+/* Formattazione testi, link, liste */
+
+body {
+    font-family: 'Montserrat', serif;
+}
+
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Prata', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    font-weight: 600;
+    font-style: italic;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px;
+    border-bottom-color: #dfdfdf;
+    border-bottom-style: solid;
+}
+
+li {
+    padding: 6px 0 6px 22px;
+    border-bottom: 1px;
+    border-bottom-color: #dfdfdf;
+    border-bottom-style: solid;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+/* Regole footer */
+
+#footer {
+    background-color: black;
+    padding: 16px;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* REGOLE PERSONALIZZATE */
+
+/* Homepage */
+
+#homepage {
+    background: url('https://images.pexels.com/photos/4064446/pexels-photo-4064446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: auto;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.grad-home {
+    padding:22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(10deg, #6f714c, #BBBDCD);
+}
+
+.color-home:visited {
+    color: #6f714c;
+}
+
+/* Sentiero schiena asino */
+
+#schiena-asino {
+    background: url('https://nicolosietna.it/wp-content/uploads/2014/06/images_SchienaAsino.jpg');
+    background-position: auto;
+    background-size: auto 100%;
+    background-repeat:no-repeat;
+}
+
+.grad-schienaasino {
+    padding:22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(10deg, #383e36, #98a0e5);
+}
+
+
+.color-schienaasino:visited {
+    color: #383e36;
+}
+
+/* Sentiero acqua rocca */
+
+#acqua-rocca {
+    background: url('https://www.etnatracking.com/Tracciati/FotoUtenti/FocusAcquaRocca/A1.jpg');
+    background-position: auto;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.grad-acquarocca {
+    padding:22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(10deg, #916d32, #9ca067);
+}
+
+.color-acquarocca:visited {
+    color: #916d32;
+}
+
+/* Sentiero serracozzo */
+
+#serracozzo {
+    background: url('https://www.guidetna.it/images/escursioni/crateri-sommitali-etna-1.jpg');
+    background-position: auto;
+    background-size: auto 100%;
+    background-repeat:no-repeat;
+}
+
+.grad-serracozzo {
+    padding:22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(10deg, #95d0ef, #49463f);
+}
+
+.color-serracozzo:visited {
+    color: #95d0ef;
+}
+
+/* Sentiero pizzi deneri */
+
+#pizzi-deneri {
+    background: url('https://casevacanzepomelia.it/wp-content/uploads/2023/02/pizzi-deneri18-1024x684.jpg');
+    background-position: auto;
+    background-size: auto 100%;
+    background-repeat:no-repeat;
+}
+
+.grad-pizzideneri {
+    padding:22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(10deg, #1981bc, #4b4a4e);
+}
+
+.color-pizzideneri:visited {
+    color: #1981bc;
+}
+
+/* Sentiero piano grilli */
+
+#piano-grilli {
+    background: url('https://www.hermes-sicily.com/blog/images/centorbi-FB.jpg');
+    background-position: auto;
+    background-size: auto 100%;
+    background-repeat:no-repeat;
+}
+
+.grad-pianogrilli {
+    padding:22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(10deg, #a1c156, #202918);
+}
+
+.color-pianogrilli:visited {
+    color: #a1c156;
+}
+
+
